@@ -128,7 +128,7 @@ class AnnotationApp(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Custom Annotation Tool")
+        self.setWindowTitle("QuickDraw")
         self.setGeometry(100, 100, 1200, 800)
         
         # --- CV Components ---

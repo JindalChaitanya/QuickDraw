@@ -48,7 +48,7 @@ class AnnotationApp(QMainWindow):
     """The main application window for image annotation."""
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Bottle Annotation Tool - Advanced")
+        self.setWindowTitle("QuickDraw")
         self.setGeometry(100, 100, 1200, 800)
 
         # --- MODIFIED: Upgraded from ORB to SIFT and BFMatcher to FLANN ---
